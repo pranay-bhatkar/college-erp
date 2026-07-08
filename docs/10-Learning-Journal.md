@@ -1,24 +1,3 @@
----
-
-## 2026-07-08
-
-### Completed
-
-- Initialised repo
-- Defined project scope
-- Started SRS
-
-### Learned
-
-- Purpose of SRS
-- Why requirements come before database design
-- Difference between a College ERP and University ERP
-
-### Quesitons
-
-- None
-
----
 # Learning Journal
 
 ---
