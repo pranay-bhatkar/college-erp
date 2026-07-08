@@ -21,6 +21,8 @@
 ---
 # Learning Journal
 
+---
+
 # Session 1 – Project Foundation
 
 **Date:** 2026-07-08
@@ -52,6 +54,41 @@
 ## Challenges
 
 - None. This session focused on establishing the project foundation.
+
+---
+
+# Session 2 – Discovering the Business Domain
+
+**Date:** 2026-07-09
+
+## What We Accomplished
+
+- Introduced domain-driven thinking.
+- Distinguished between Applicant, Student, and Enrollment.
+- Identified the importance of preserving historical data.
+- Modeled the initial academic journey.
+- Discovered Semester Registration and Course Registration as separate business concepts.
+
+## What I Learned
+
+- A Student is the result of an approved admission, not the starting point of the process.
+- Business entities should represent real business concepts rather than database tables.
+- History should be preserved instead of overwritten.
+- Stable data (identity) should be separated from changing academic data.
+- Asking "What business event caused this?" helps identify hidden entities.
+
+## Key Questions Discussed
+
+- Should rejected applicants become students?
+- Should a program change overwrite the Student record?
+- How should semester progression be tracked?
+- Why is Course Registration a separate concept?
+
+## Mentor Feedback
+
+Today's biggest lesson was learning to think in terms of the business domain before thinking about tables.
+
+Instead of asking "What table should I create?", I started asking "What business concept am I trying to model?"
 
 ---
 

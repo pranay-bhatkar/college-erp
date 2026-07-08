@@ -1,9 +1,15 @@
-
 # Software Requirements Specification (SRS)
 
 ## Project Information
 
-<table style="min-width: 50px;"><colgroup><col style="min-width: 25px;"><col style="min-width: 25px;"></colgroup><tbody><tr><th colspan="1" rowspan="1"><p></p><p>Field</p></th><th colspan="1" rowspan="1"><p>Value</p></th></tr><tr><td colspan="1" rowspan="1"><p>Project Name</p></td><td colspan="1" rowspan="1"><p>College ERP Management System</p></td></tr><tr><td colspan="1" rowspan="1"><p>Version</p></td><td colspan="1" rowspan="1"><p>1.0</p></td></tr><tr><td colspan="1" rowspan="1"><p>Document Status</p></td><td colspan="1" rowspan="1"><p>Draft</p></td></tr><tr><td colspan="1" rowspan="1"><p>Prepared By</p></td><td colspan="1" rowspan="1"><p>Pranay Bhatkar</p></td></tr><tr><td colspan="1" rowspan="1"><p>Mentor</p></td><td colspan="1" rowspan="1"><p>ChatGPT</p></td></tr><tr><td colspan="1" rowspan="1"><p>Last Updated</p></td><td colspan="1" rowspan="1"><p>2026-07-08</p></td></tr></tbody></table>
+| Field | Value |
+| --- | --- |
+| Project Name | College ERP Management System |
+| Version | 1.0 |
+| Document Status | Draft |
+| Prepared By | Pranay Bhatkar |
+| Mentor | ChatGPT |
+| Last Updated | 2026-07-08 |
 
 ---
 
@@ -124,7 +130,7 @@ These are the major capabilities of the system
 ## 6. Workflow
 
 Student applies for admission\
- │\
+│\
 ▼\
 Admission approved\
 │\
