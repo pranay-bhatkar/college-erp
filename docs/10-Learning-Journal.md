@@ -1,27 +1,6 @@
----
-
-## 2026-07-08
-
-### Completed
-
-- Initialised repo
-- Defined project scope
-- Started SRS
-
-### Learned
-
-- Purpose of SRS
-- Why requirements come before database design
-- Difference between a College ERP and University ERP
-
-### Quesitons
-
-- None
-
----
 # Learning Journal
 
----
+<br/>
 
 # Session 1 – Project Foundation
 
@@ -55,7 +34,9 @@
 
 - None. This session focused on establishing the project foundation.
 
----
+<br/>
+
+<br/>
 
 # Session 2 – Discovering the Business Domain
 
@@ -90,6 +71,41 @@ Today's biggest lesson was learning to think in terms of the business domain bef
 
 Instead of asking "What table should I create?", I started asking "What business concept am I trying to model?"
 
----
+<br/>
+<br/>
 
-## 
+# Session 3 – Teaching & Attendance Domain
+
+**Date:** 2026-07-10
+
+## What We Accomplished
+
+- Modeled the teaching workflow of the college.
+- Identified Faculty Assignment as a separate business concept.
+- Distinguished between Timetable and Teaching Session.
+- Determined that Attendance belongs to Teaching Session rather than Student or Timetable.
+- Continued refining the business domain before database design.
+
+## What I Learned
+
+- Planned activities and actual events should be modeled separately.
+- Attendance represents participation in a specific teaching session.
+- Faculty Assignment captures teaching responsibility within an academic context.
+- Every business concept should answer a specific business question.
+
+## Key Questions Discussed
+
+- What information must exist before attendance can be recorded?
+- Should Timetable be a separate entity?
+- What happens if a scheduled class is cancelled?
+- Why should Attendance belong to Teaching Session?
+
+## Mentor Feedback
+
+Today's biggest takeaway was understanding that enterprise systems distinguish between planning and execution.
+
+A timetable plans classes.
+
+A teaching session records what actually happened.
+
+Attendance is meaningful only after an actual teaching session exists.

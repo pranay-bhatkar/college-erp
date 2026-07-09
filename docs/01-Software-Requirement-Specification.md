@@ -2,16 +2,16 @@
 
 ## Project Information
 
-| Field | Value |
-| --- | --- |
-| Project Name | College ERP Management System |
-| Version | 1.0 |
-| Document Status | Draft |
-| Prepared By | Pranay Bhatkar |
-| Mentor | ChatGPT |
-| Last Updated | 2026-07-08 |
+| Field           | Value                         |
+| --------------- | ----------------------------- |
+| Project Name    | College ERP Management System |
+| Version         | 1.0                           |
+| Document Status | Draft                         |
+| Prepared By     | Pranay Bhatkar                |
+| Mentor          | ChatGPT                       |
+| Last Updated    | 2026-07-08                    |
 
----
+<br/>
 
 ## 1. Introduction
 
@@ -29,7 +29,7 @@ The system will provide centralized management of students, faculty, departments
 
 The application will use role-based access control to ensure that users can access only the information and features relevant to their responsibilities.
 
----
+<br/>
 
 ## 2. Objectives
 
@@ -44,7 +44,7 @@ The primary objectives of the system are:
 - Maintain historical academic records.
 - Provide a scalable foundation for future enhancements.
 
----
+<br/>
 
 ## 3. Scope
 
@@ -71,22 +71,24 @@ The application will include modules for:
 
 The application will expose REST APIs for frontend integration and will maintain a normalized relational database.
 
----
+<br/>
 
 ## 4. Stakeholders
 
-| Role | Description |
-| --- | --- |
-| Super Admin | Manages the entire ERP, users, roles, and global settings. |
-| Principal | Oversees academic and administrative operations and views institutional reports. |
-| Head of Department (HOD) | Manages a department, faculty, subjects, and departmental reports. |
-| Faculty | Teaches subjects, marks attendance, enters grades, and communicates with students. |
-| Student | Views attendance, timetable, grades, fee status, notifications, and personal profile. |
-| Accountant | Manages fee structures, invoices, payments, scholarships, and financial reports. |
-| Librarian | Manages books, lending, returns, and fines. |
-| Hostel Administrator | Manages hostels, rooms, and room allocations. |
-| Transport Administrator | Manages buses, routes, stops, and student transport assignments. |
-| Placement Officer | Manages companies, placement drives, interviews, and offers. |
+| Role                     | Description                                                                           |
+| ------------------------ | ------------------------------------------------------------------------------------- |
+| Super Admin              | Manages the entire ERP, users, roles, and global settings.                            |
+| Principal                | Oversees academic and administrative operations and views institutional reports.      |
+| Head of Department (HOD) | Manages a department, faculty, subjects, and departmental reports.                    |
+| Faculty                  | Teaches subjects, marks attendance, enters grades, and communicates with students.    |
+| Student                  | Views attendance, timetable, grades, fee status, notifications, and personal profile. |
+| Accountant               | Manages fee structures, invoices, payments, scholarships, and financial reports.      |
+| Librarian                | Manages books, lending, returns, and fines.                                           |
+| Hostel Administrator     | Manages hostels, rooms, and room allocations.                                         |
+| Transport Administrator  | Manages buses, routes, stops, and student transport assignments.                      |
+| Placement Officer        | Manages companies, placement drives, interviews, and offers.                          |
+
+---
 
 not included in Version 1
 
@@ -99,33 +101,35 @@ not included in Version 1
 
 These are good for future versions
 
----
+<br/>
 
 ## 5. Business Modules
 
 These are the major capabilities of the system
 
-| Module | Primary Users |
-| --- | --- |
-| Authentication & Authorization | Everyone |
-| User Management | Super Admin |
-| Department Management | Admin, Principal |
-| Academic Programs | Admin |
-| Student Management | Admin |
-| Faculty Management | Admin, HOD |
-| Subject Management | Admin, HOD |
-| Timetable | Admin, Faculty, Student |
-| Attendance | Faculty, Student |
-| Examination | Faculty, Student |
-| Fee Management | Accountant, Student |
-| Library | Librarian, Student |
-| Hostel | Hostel Admin |
-| Transport | Transport Admin |
-| Placement | Placement Officer |
-| Notifications | All users |
-| Reports & Dashboard | Principal, HOD, Admin |
+| Module                         | Primary Users           |
+| ------------------------------ | ----------------------- |
+| Authentication & Authorization | Everyone                |
+| User Management                | Super Admin             |
+| Department Management          | Admin, Principal        |
+| Academic Programs              | Admin                   |
+| Student Management             | Admin                   |
+| Faculty Management             | Admin, HOD              |
+| Subject Management             | Admin, HOD              |
+| Timetable                      | Admin, Faculty, Student |
+| Attendance                     | Faculty, Student        |
+| Examination                    | Faculty, Student        |
+| Fee Management                 | Accountant, Student     |
+| Library                        | Librarian, Student      |
+| Hostel                         | Hostel Admin            |
+| Transport                      | Transport Admin         |
+| Placement                      | Placement Officer       |
+| Notifications                  | All users               |
+| Reports & Dashboard            | Principal, HOD, Admin   |
 
 ---
+
+<br/>
 
 ## 6. Workflow
 
