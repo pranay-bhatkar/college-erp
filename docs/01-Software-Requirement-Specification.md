@@ -134,40 +134,98 @@ These are the major capabilities of the system
 
 ## 6. Workflow
 
-Student applies for admission\
-│\
-▼\
-Admission approved\
-│\
-▼\
-Student enrolled in a program\
-│\
-▼\
-Assigned to a section\
-│\
-▼\
-Faculty assigned to subjects\
-│\
-▼\
-Attendance recorded\
-│\
-▼\
-Internal assessments\
-│\
-▼\
-Semester examination\
-│\
-▼\
-Result published\
-│\
-▼\
-Fees paid\
-│\
-▼\
-Library usage\
-│\
-▼\
-Placement drive\
-│\
-▼\
-Graduation
+```
+Student applies for admission
+            │
+            ▼
+    Admission approved
+            │
+            ▼
+Student enrolled in a program
+            │
+            ▼
+    Assigned to a section
+            │
+            ▼
+Faculty assigned to subjects
+            │
+            ▼
+    Attendance recorded
+            │
+            ▼
+    Internal assessments
+            │
+            ▼
+    Semester examination
+            │
+            ▼
+    Result published
+            │
+            ▼
+        Fees paid
+            │
+            ▼
+        Library usage
+            │
+            ▼
+    Placement drive
+            │
+            ▼
+        Graduation
+```
+
+> ### Updated workflow
+
+```
+Person
+    │
+    ▼
+Applicant
+    │
+    ▼
+Admission
+    │
+    ▼
+Student
+    │
+    ▼
+Enrollment
+    │
+    ▼
+Semester Registration
+    │
+    ▼
+Course Registration
+    │
+    ├───────────────► Teaching Domain
+    │                     │
+    │                     ▼
+    │             Faculty Assignment
+    │                     │
+    │                     ▼
+    │                 Timetable
+    │                     │
+    │                     ▼
+    │              Teaching Session
+    │                     │
+    │                     ▼
+    │                 Attendance
+    │
+    └───────────────► Examination Domain
+                          │
+                          ▼
+                     Assessment
+                          │
+                          ▼
+                  Assessment Result
+                          │
+                          ▼
+                 Semester Examination
+                          │
+                          ▼
+                 Examination Result
+                          │
+                          ▼
+                      Graduation
+
+```

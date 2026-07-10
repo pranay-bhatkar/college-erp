@@ -174,3 +174,83 @@ Attendance does not belong directly to Student or Timetable.
 ---
 
 <br/>
+
+## 4. Examination Domain
+
+```text
+Course Registration
+        │
+        ▼
+Assessment
+        │
+        ▼
+Assessment Result
+        │
+        ▼
+Semester Examination
+        │
+        ▼
+Examination Result
+        │
+        ▼
+Graduation
+```
+
+> ### Domain Entities
+
+### Assessment
+
+Represents an academic evaluation created by a faculty member for a specific course.
+
+Examples include:
+
+- Assignment
+- Quiz
+- Mid-Term
+- Laboratory Evaluation
+- Viva
+
+An Assessment exists independently of student scores.
+
+---
+
+### Assessment Result
+
+Represents the marks obtained by a student in a specific assessment.
+
+Assessment Results are recorded only after an Assessment has been conducted.
+
+---
+
+### Semester Examination
+
+Represents the formal end-semester examination process managed by the Examination Department.
+
+The Semester Examination is a separate business domain with its own lifecycle and workflows.
+
+Typical activities include:
+
+- Exam Schedule
+- Hall Ticket Generation
+- Seating Arrangement
+- Invigilator Assignment
+- Examination Conduct
+- Evaluation
+- Result Processing
+
+---
+
+### Examination Result
+
+Represents the final result of a student's semester examination.
+
+The Examination Result may include:
+
+- Marks
+- Grade
+- Pass/Fail Status
+- SGPA/CGPA contribution
+
+---
+
+<br>

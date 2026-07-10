@@ -65,3 +65,19 @@ These rules will eventually become constraints in our database, validation logic
 24. Cancelled Teaching Sessions shall not generate attendance records.
 
 <br/>
+
+# Assessment & Examination Rules
+
+25. Faculty members may create multiple assessments for a course during an academic term.
+
+26. Assessments shall exist independently of student scores.
+
+27. Student marks shall be recorded against an Assessment Result.
+
+28. Semester Examinations shall be managed independently from Internal Assessments.
+
+29. Semester Examination is a separate academic process managed by the Examination Department.
+
+30. Examination Results shall be generated only after evaluation is completed.
+
+31. Graduation eligibility shall be determined based on successful completion of all academic requirements.

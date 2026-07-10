@@ -109,3 +109,40 @@ A timetable plans classes.
 A teaching session records what actually happened.
 
 Attendance is meaningful only after an actual teaching session exists.
+
+<br/>
+<br/>
+
+# Session 4 – Examination Domain Discovery
+
+**Date:** 2026-07-11
+
+## What We Accomplished
+
+- Explored the Examination domain.
+- Identified Assessment as an independent business concept.
+- Distinguished Assessment from Assessment Result.
+- Recognized Semester Examination as a separate academic domain.
+- Continued expanding the ERP domain model using business-first thinking.
+
+## What I Learned
+
+- Every assessment has its own lifecycle before students receive marks.
+- Student scores should not be stored directly within the assessment.
+- Semester Examination is much larger than an internal assessment and involves multiple academic workflows.
+- Enterprise systems model business processes before database tables.
+
+## Key Questions Discussed
+
+- Should Internal Assessment be a separate concept?
+- Why is Assessment different from Assessment Result?
+- Is Semester Examination just another assessment?
+- What responsibilities belong to the Examination Department?
+
+## Mentor Feedback
+
+Today's discussion reinforced the importance of identifying business responsibilities.
+
+The Examination domain is not simply an extension of teaching—it is a distinct domain with its own workflows, users, and business rules.
+
+
