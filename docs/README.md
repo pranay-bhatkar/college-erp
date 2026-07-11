@@ -18,3 +18,22 @@ Completed Deliverables
 Status
 
 Ready for Database Design
+
+---
+
+<br>
+<br>
+
+## Current Sprint
+
+### Sprint 1 – Database Design
+
+**Status:** In Progress
+
+### Current Objectives
+
+- Define database standards
+- Finalize naming conventions
+- Design ER model
+- Create master tables
+- Create transactional tables
