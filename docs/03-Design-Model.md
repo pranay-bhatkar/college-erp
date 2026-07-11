@@ -253,4 +253,27 @@ The Examination Result may include:
 
 ---
 
+## <br>
+
+# Approval
+
+The Architecture Review Board has reviewed the current domain model.
+
+The model is approved as **Version 1.0** and is considered stable for database design.
+
+Future structural changes must be recorded through the Decision Log (ADR).
+
+---
+
+Version: 1.0
+
+Status: Approved
+
+Approved By:
+
+- Architecture Review Board
+
+Last Updated:
+12-Jul-2026
+
 <br>
